@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+}
+.heading{
+    border:2px solid red;
+    height:10vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #2be2de;
+}
+.heading h1{
+    color:blue;
+    
+}
+.box1{
+    height:90vh;
+    border:2px solid black;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../images/back.jpeg);
+    background-size: cover;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.carts{
+    border:2px solid white;
+    height:40vh;
+    width:30vw;
+    background-color:beige;
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+    margin: 5px;
+    padding:5px;
+    
+}
+.carts h1{
+    text-align: center;
+    font-size:40px;
+    color:red;
+}
+.carts h2{
+    text-align: center;
+    font-size:larger;
+    
+}
+.firsthalf{
+    width:20vw;
+    border:2px solid black;
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    height:20vh;
+}
+.firsthalf img{
+    width:100%;
+    height:100%;
+}
+@media screen and (max-width:900px)
+{
+    .box1{
+        height:90vh;
+        border:2px solid black;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../images/back.jpeg);
+        background-size: cover;
+        display:flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+    }
+    .carts{
+        border:2px solid white;
+        height:30vh;
+        width:30vw;
+        background-color:beige;
+        justify-content: center;
+        align-items:center;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .carts h1{
+        text-align: center;
+        font-size:25px;
+        color:red;
+    }
+    .carts h2{
+        text-align: center;
+        font-size:small;
+        
+    }
+    .firsthalf{
+        width:15vw;
+        border:2px solid black;
+        justify-content: center;
+        align-items:center;
+        display:flex;
+        height:15vh;
+    }
+    .firsthalf img{
+        width:100%;
+        height:100%;
+    }
+
+}
+.newsales{
+    height:45vh;
+    border:2px solid black;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../images/summer.jpeg);
+    background-size: cover;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
