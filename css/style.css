@@ -3,7 +3,7 @@
     padding:0;
 }
 .heading{
-    border:2px solid red;
+    border:2px solid black;
     height:10vh;
     display:flex;
     justify-content: center;
@@ -107,13 +107,14 @@
 }
 .newsales{
     height:50vh;
-    border:2px solid black;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../images/summer.jpeg);
+    /* border:2px solid black; */
+    /* //background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../images/summer.jpeg); */
     background-size: cover;
     align-items: center;
     display:flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
+    background-color: #2be2de;
 }
 .slides{
     width:50%;
@@ -124,3 +125,83 @@
     width:100%;
     height:100%;
 }
+@media all and (max-width:750px)
+{
+    .newsales{
+        height:30vh;
+        /* border:2px solid black; */
+        /* //background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../images/summer.jpeg); */
+        background-size: cover;
+        align-items: center;
+        display:flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        background-color: #2be2de;
+    }
+    .slides{
+        width:50%;
+        height:90%;
+        border:2px solid rgb(243, 13, 13);
+    }
+    .slides img{
+        width:100%;
+        height:100%;
+    }
+}
+.reviews{
+    height:80vh;
+    justify-content: center;
+    align-items:center;
+    font-family:Arial;
+    margin:0 auto;
+    max-width:800ox;
+    padding:20px;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.fa{
+    font-size:25px;
+}
+.checked{
+    color:orange;
+}
+.side{
+    float:left;
+    width:15%;
+    margin-top: 10px;
+}
+.middle{
+    margin-top:10px;
+    float:left;
+    width:70%;
+}
+.right{
+    text-align: right;
+}
+.row:after{
+    content: "";
+    display:teable;
+    clear:both;
+}
+.bar-containe{
+    width: 100%;
+  background-color: #f1f1f19a;
+  text-align: center;
+  color: white;
+}
+.bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+@media (max-width: 400px) {
+    .side, .middle {
+      width: 100%;
+    }
+    .right {
+      display: none;
+    }
+  }
