@@ -161,6 +161,10 @@
 *{
     box-sizing: border-box;
 }
+.head{
+    font-size:25px;
+    margin-right: 25px;
+}
 .fa{
     font-size:25px;
 }
@@ -197,6 +201,7 @@
 .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
 .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
 
+
 @media (max-width: 400px) {
     .side, .middle {
       width: 100%;
@@ -205,3 +210,7 @@
       display: none;
     }
   }
+
+
+
+  
